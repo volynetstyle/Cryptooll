@@ -169,7 +169,7 @@ function App() {
   };
 
   const handleLangChange = (
-    e: React.SyntheticEvent | null,
+    _e: React.SyntheticEvent | null,
     newValue: Language | null
   ) => {
     setValue({ ...value, text: "", lang: newValue as Language });
